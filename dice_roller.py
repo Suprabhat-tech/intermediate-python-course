@@ -6,7 +6,7 @@ def main():
     roll= r.randint(1,6)
     d_s+=roll
     print('You rolled a die of {}'.format(roll))
-  print("You rolled a total dice of {}".format(d_s))
+  print("You rolled a total of {}".format(d_s))
 
 if __name__== "__main__":
   main()
